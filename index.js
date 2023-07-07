@@ -15,7 +15,7 @@ function instance(system, id, config) {
 	self.actions(); // export actions
 	self.init_presets();
 
-	return self;
+	return self; //test
 }
 
 instance.prototype.updateConfig = function(config) {
